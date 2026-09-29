@@ -1,0 +1,6 @@
+# Dependências dos notebooks (versões não fixadas — este projeto é WIP)
+kagglehub
+pandas
+numpy
+matplotlib
+seaborn
