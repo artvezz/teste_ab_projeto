@@ -1,6 +1,11 @@
-# Dependências dos notebooks (versões não fixadas — este projeto é WIP)
-kagglehub
+# Dependencias dos notebooks.
+#
+# Versoes nao fixadas de proposito: este projeto roda em um dataset pequeno e
+# nao publica artefatos de build. Se precisar de reprodutibilidade estrita,
+# fixe com `pip freeze`.
+kagglehub        # opcional: so para re-baixar o dataset do Kaggle
 pandas
 numpy
 matplotlib
 seaborn
+scipy             # t-test de Welch e Mann-Whitney
